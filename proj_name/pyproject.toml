@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "proj-name"
+version = "0.1.0"
+description = ""
+authors = ["Camilla Napoles <camillanapoles@hotmail.com>"]
+readme = "README.md"
+packages = [{include = "proj_name"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
